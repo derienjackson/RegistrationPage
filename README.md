@@ -1,2 +1,2 @@
 # RegistrationPage
-Checks for various username, pasword, and date of birth requirements for a registration page
+Checks for various username, password, and date of birth requirements for a registration page
