@@ -16,7 +16,7 @@ Project checks for username, password, and date of birth requirements for a regi
 
 <p align="center">
 Registration form page <br/>
-<img src="https://i.imgur.com/r0Ff9Id.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6f7IofE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
