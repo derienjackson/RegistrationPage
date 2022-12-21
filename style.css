@@ -84,17 +84,68 @@ h2 {
   visibility: visible;
 }
 
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
 .form button {
-  cursor: pointer;
-  background-color: #3498db;
-  border: 2px solid #3498db;
-  border-radius: 4px;
-  color: #fff;
   display: block;
-  font-size: 16px;
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+  position: relative;
+  width: 100%; 
+  height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 0px 15px;
+  min-width: 150px;
+}
+
+  .form button span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+  }
+
+.form button::before,
+.form button::after {
+  width: 10%; height: 25%;
+  transition: 0.35s;
+}
+.form button::before {
+  top: 0; left: 0;
+  border-left: 1px solid rgb(28, 31, 30);
+  border-top: 1px solid rgb(28, 31, 30);
+}
+.form button::after {
+  bottom: 0; right: 0;
+  border-right: 1px solid rgb(28, 31, 30);
+  border-bottom: 1px solid rgb(28, 31, 30);
+}
+.form button:hover::before,
+.form button:hover::after {
+  width: 99%;
+  height: 98%;
+}
+
+.form button:active {
+  background-color: #E1D9D1
 }
 
 .patterns {
