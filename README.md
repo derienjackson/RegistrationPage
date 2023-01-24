@@ -1,4 +1,4 @@
-<h1>Registration Page</h1>
+<h1>Registration Page (Mobile)</h1>
 
 
 <h2>Description</h2>
